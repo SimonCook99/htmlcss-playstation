@@ -15,6 +15,11 @@
     color: white!important;
 }
 
+.ms_bgBlue{
+    background-color: #2d64e6!important;
+    color: white!important;
+}
+
 /* Sezione header*/
 .ms_header_align{
     display: flex;
@@ -53,4 +58,19 @@
 .ms_active{
     padding: 3px;
     border: 3px solid #318cd7;
+}
+
+
+/* Sezione ps5*/
+#ps5 img{
+    max-width: 100%;
+}
+
+#ps5 .ms_active{
+    padding: 3px;
+    border: 0;
+    border-bottom: 3px solid #318cd7;
+}
+#ps5 .ms_inactive{
+    opacity: 0.75;
 }

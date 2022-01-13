@@ -10,6 +10,11 @@
     border-radius: 50px!important;
 }
 
+.ms_bgRed{
+    background-color: #cd3d0f!important;
+    color: white!important;
+}
+
 /* Sezione header*/
 .ms_header_align{
     display: flex;
@@ -20,4 +25,17 @@
 .ms_shrink{
     max-width: 10%;
     padding: 10px;
+}
+
+
+#jumbotron{
+    background-image: url("img/jumbo-bg.png");
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+#jumbotron div{
+    position: relative;
+    top: 50%;
 }

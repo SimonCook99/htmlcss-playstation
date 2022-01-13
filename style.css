@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* classi in comune*/
+.ms_radius{ /* classe per stondatura bottoni*/
+    border-radius: 50px!important;
+}
+
+/* Sezione header*/
+.ms_header_align{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ms_shrink{
+    max-width: 10%;
+    padding: 10px;
+}

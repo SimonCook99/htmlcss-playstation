@@ -27,7 +27,7 @@
     padding: 10px;
 }
 
-
+/* sezione jumbotron*/
 #jumbotron{
     background-image: url("img/jumbo-bg.png");
     background-size: cover;
@@ -37,5 +37,20 @@
 
 #jumbotron div{
     position: relative;
-    top: 50%;
+    top: 35%;
+}
+
+#jumbotron img{
+    max-width: 40%;
+}
+
+
+/* sezione thumbnails*/
+.ms_rounded{
+    border-radius: 20px;
+}
+
+.ms_active{
+    padding: 3px;
+    border: 3px solid #318cd7;
 }

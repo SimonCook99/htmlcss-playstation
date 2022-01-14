@@ -43,7 +43,7 @@ body{
 }
 
 #jumbotron{
-    height: 50vh;
+    height: 70vh;
 }
 
 
@@ -126,6 +126,19 @@ body{
 
 /* Sezione sconti*/
 #Sconti img{
+    max-width: 100%;
+}
+
+
+/* Sezione psNow*/
+#psNow{
+    height: 40vh;
+    background-color: #161c3b;
+}
+
+
+/* sezione social*/
+#social img{
     max-width: 100%;
 }
 

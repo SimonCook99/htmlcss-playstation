@@ -49,7 +49,7 @@ body{
 }
 
 #jumbotron img, #goty img{
-    max-width: 40%;
+    max-width: 50%;
 }
 
 #jumbotron{
@@ -104,4 +104,20 @@ body{
 
 #nuove-uscite .ms_rounded{ /* Arrotondamento maggiore in questa sezione*/
     border-radius: 30px;
+}
+
+
+/* sezione ps4*/
+#ps4 img{
+    max-width: 100%;
+}
+
+
+
+
+/* media query resizing immagine*/
+@media screen and (min-width: 768px){
+    #goty img{
+        max-width: 40%;
+    }
 }

@@ -39,14 +39,13 @@ body{
 /* sezione jumbotron e goty(it takes two)*/
 #jumbotron, #goty{
     background-size: cover;
-    background-position: center;
+    background-position: center; 
+}
+
+#jumbotron{
     height: 50vh;
 }
 
-#jumbotron div{
-    position: relative;
-    top: 35%;
-}
 
 #jumbotron img, #goty img{
     max-width: 50%;
@@ -54,6 +53,12 @@ body{
 
 #jumbotron{
     background-image: url("img/jumbo-bg.png");
+    position: relative;
+}
+
+#jumbotron .jumbo-details{
+    position: absolute;
+    bottom: 10%;
 }
 
 #goty{
@@ -109,6 +114,18 @@ body{
 
 /* sezione ps4*/
 #ps4 img{
+    max-width: 100%;
+}
+
+
+/* Sezione ps plus*/
+#psPlus{
+    background-color: #bebcbb;
+    height: 40vh;
+}
+
+/* Sezione sconti*/
+#Sconti img{
     max-width: 100%;
 }
 

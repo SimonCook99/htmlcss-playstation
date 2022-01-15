@@ -24,6 +24,16 @@ body{
     color: white!important;
 }
 
+.ms_bgGrey{
+    background-color: #d9dadc!important;
+    color: #2d64e6!important;
+}
+
+.ms_bgWhite{
+    background-color: white!important;
+    color: black!important;
+}
+
 /* Sezione header*/
 .ms_header_align{
     display: flex;
@@ -121,7 +131,14 @@ body{
 /* Sezione ps plus*/
 #psPlus{
     background-color: #bebcbb;
-    height: 40vh;
+}
+
+#psPlus img.ms_plusGames{
+    max-width: 90%;
+}
+
+#psPlus img.ms_plusLogo{
+    max-width: 50%;
 }
 
 /* Sezione sconti*/
@@ -132,8 +149,15 @@ body{
 
 /* Sezione psNow*/
 #psNow{
-    height: 40vh;
     background-color: #161c3b;
+}
+
+#psNow img.ms_NowGames{
+    max-width: 90%;
+}
+
+#psNow img.ms_NowLogo{
+    max-width: 50%;
 }
 
 

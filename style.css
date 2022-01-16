@@ -46,6 +46,39 @@ body{
     padding: 10px;
 }
 
+/* Sezione BONUS, header menù*/
+.ms_menu{
+    width: 100%;
+    margin-top: -2px!important; /* leggero margine negativo per evitare leggero distacco*/
+}
+
+li.nav-item.dropdown { /* sovrascrittura necessaria all'impostazione del menù al 100% della riga*/
+    position: static!important;
+}
+
+a.dropdown-item img {
+    max-width: 60%;
+}
+
+li, li.ms_images{
+    display: inline-block;
+}
+
+li.ms_images{
+    position: relative;
+    left: 35%;
+}
+
+li.ms_link{
+    position: relative;
+    left: 37%;
+}
+
+.ms_divider{
+    display: block;
+    width: 100%;
+}
+
 main{
     margin-top: 90px;
 }

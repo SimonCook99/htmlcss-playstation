@@ -46,6 +46,10 @@ body{
     padding: 10px;
 }
 
+main{
+    margin-top: 90px;
+}
+
 /* sezione jumbotron e goty(it takes two)*/
 #jumbotron, #goty{
     background-size: cover;
@@ -164,6 +168,20 @@ body{
 /* sezione social*/
 #social img{
     max-width: 100%;
+}
+
+/* sezione footer */
+footer .container-fluid{
+    background-color: #00439c;
+}
+
+footer a{
+    text-decoration: none;
+    display: block;
+}
+
+footer img{
+    max-width: 20%;
 }
 
 

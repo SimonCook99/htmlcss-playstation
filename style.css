@@ -24,14 +24,22 @@ body{
     color: white;
 }
 
+.ms_bgRed:hover, .ms_bgBlue:hover{
+    color: white;
+}
+
 .ms_bgGrey{
     background-color: #d9dadc;
     color: #2d64e6;
 }
 
+.ms_bgGrey:hover{
+    color: #2d64e6;
+}
+
 .ms_bgWhite{
-    background-color: white!important;
-    color: black!important;
+    background-color: white;
+    color: #212529;
 }
 
 /* Sezione header*/

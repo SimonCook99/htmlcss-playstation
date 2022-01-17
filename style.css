@@ -11,22 +11,22 @@ body{
 
 /* classi in comune*/
 .ms_radius{ /* classe per stondatura bottoni*/
-    border-radius: 50px!important;
+    border-radius: 50px;
 }
 
 .ms_bgRed{
-    background-color: #cd3d0f!important;
-    color: white!important;
+    background-color: #cd3d0f;
+    color: white;
 }
 
 .ms_bgBlue{
-    background-color: #2d64e6!important;
-    color: white!important;
+    background-color: #2d64e6;
+    color: white;
 }
 
 .ms_bgGrey{
-    background-color: #d9dadc!important;
-    color: #2d64e6!important;
+    background-color: #d9dadc;
+    color: #2d64e6;
 }
 
 .ms_bgWhite{
@@ -123,6 +123,18 @@ main{
     border: 3px solid #318cd7;
 }
 
+.ms_card{
+    border: 0;
+    position: relative;
+    bottom: 0;
+    transition: bottom 0.5s;
+}
+
+.ms_card:hover{
+    bottom: 10px;
+    cursor: pointer;
+}
+
 
 /* Sezione ps5*/
 #ps5 img{
@@ -136,6 +148,7 @@ main{
 }
 #ps5 .ms_inactive{
     opacity: 0.75;
+    border-bottom: 3px solid rgba(0,0,0,0);
 }
 
 #ps5 .col:hover img{

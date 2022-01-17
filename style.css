@@ -79,7 +79,13 @@ li.ms_images{
 
 li.ms_link{
     position: relative;
-    left: 37%;
+    left: 35%;
+}
+
+li.ms_link a:before {
+    content: "●";
+    color: blue;
+    padding-right: 5px;
 }
 
 .ms_divider{
